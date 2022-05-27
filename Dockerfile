@@ -1,37 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@naveenrl 
-nginxinc
-/
-docker-nginx
-Public
-Code
-Issues
-26
-Pull requests
-4
-Projects
-Security
-Insights
-docker-nginx/mainline/debian/Dockerfile
-@thresheek
-thresheek Bump njs revisions for mainline and stable.
-Latest commit d039609 10 days ago
- History
- 7 contributors
-@thresheek@lucacome@PMExtra@pscheid92@choyri@Exagone313@shmux8
-114 lines (107 sloc)  5.26 KB
-   
-#
-# NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
-#
-# PLEASE DO NOT EDIT IT DIRECTLY.
-#
+
 FROM debian:bullseye-slim
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
@@ -141,15 +108,3 @@ EXPOSE 80
 STOPSIGNAL SIGQUIT
 
 CMD ["nginx", "-g", "daemon off;"]
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
